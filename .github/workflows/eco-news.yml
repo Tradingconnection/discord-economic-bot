@@ -2,8 +2,8 @@ name: Economic News Daily Bot
 
 on:
   schedule:
-    - cron: '0 6 * * *'  # Tous les jours à 06:00 UTC (08:00 Paris)
-  workflow_dispatch:      # Permet de lancer manuellement si besoin
+    - cron: '0 6 * * *'   # Tous les jours à 06:00 UTC (08:00 Paris)
+  workflow_dispatch:
 
 jobs:
   run-bot:
